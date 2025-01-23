@@ -11,6 +11,7 @@
 	<groupId>com.zafar.JenkinsCiCdApp</groupId>
 	<artifactId>JenkinsCiCdApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>JenkinsCiCdApp</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -74,6 +75,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>jenkinsCiCd</finalName>
 	</build>
 
 </project>
